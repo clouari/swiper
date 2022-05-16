@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollbar+Navigation+Pagination </title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./style.css"></script>
+</head>
+<body>
+    <!-- 클래스명은 변경하면 안 됨 -->
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0315.jpg"></div>
+		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0416.jpg"></div>
+		<div class="swiper-slide" style="font-size:50pt;">- 끝 -</div>
+	</div>
+
+	<!-- 네비게이션 버튼 -->
+	<div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+	<div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+
+	<!-- 페이징 -->
+	<div class="swiper-pagination"></div>
+
+	<!-- 스크롤바 -->
+	<div class="swiper-scrollbar"></div>
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
