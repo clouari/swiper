@@ -1,0 +1,12 @@
+.box{
+     margin: 15px;
+    }
+.box1{
+     width: 100px; height: 100px; background: orange;
+    }
+.box2{
+     width: 200px; height: 100px; background: greenyellow;
+    }
+.box3{
+     width: 100px; height: 200px; background : tomato;
+     }  
