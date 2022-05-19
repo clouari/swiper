@@ -8,8 +8,10 @@
     <link
     rel="stylesheet"
     href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./style.css"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>    
 </head>
 <body>
@@ -18,6 +20,27 @@
             <video muted autoplay loop >
                 <source src="/assets/video/Your project 10.mp4">
             </video>
+            <!-- 바텀바 구성하는 영역 -->
+            <div class="wrapper">
+                  <div id="bottom-bar">
+                      <div class="bottom-bar-element">
+                          <i class="material-icons">home</i><br>
+                          <span>Home</span>
+                      </div>
+                      <div class="bottom-bar-element">
+                          <i class="material-icons">dashboard</i><br>
+                          <span>개인회생</span>
+                      </div>
+                      <div class="bottom-bar-element">
+                          <i class="material-icons">extension</i><br>
+                          <span>개인파산</span>
+                      </div>
+                      <div class="bottom-bar-element">
+                        <i class="material-icons">person</i><br>
+                          <span>상담문의</span>
+                      </div>
+                  </div>
+              </div>
         </div>
     <script src="./script.js"></script>
 </body>
